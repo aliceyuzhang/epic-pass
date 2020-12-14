@@ -1,5 +1,5 @@
 Step 1:
-You will need to change constants in reserve.rb line 4 - 7.
+You will need to change constants in spec/reserve_spec.rb line 4 - 7.
 
 Step 2:
 Install ruby gems in terminal:
