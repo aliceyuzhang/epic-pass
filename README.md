@@ -1,3 +1,5 @@
+# Instructions
+
 Step 1:
 You will need to change constants in spec/reserve_spec.rb line 4 - 7.
 
@@ -29,7 +31,9 @@ If you want to run it infinitely until you `ctrl+C` to kill it:
      disown
 ```
 
-
-Extra Info:
-The default webdriver is set in spec/spec_helper.rb. It uses Chrome in incognito mode:
+# Webdriver
+The default webdriver is set in [spec/spec_helper.rb](https://github.com/aliceyuzhang/epic-pass/blob/master/spec/spec_helper.rb#L32). It uses Chrome in incognito mode:
 `config.default_driver = :selenium_chrome`
+
+You can change it to headless chrome in [spec/spec_helper.rb](https://github.com/aliceyuzhang/epic-pass/blob/master/spec/spec_helper.rb#L32):
+`config.default_driver = selenium_chrome_headless`
